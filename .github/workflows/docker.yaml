@@ -156,5 +156,5 @@ jobs:
             
         done < images.txt
          schedule:
-          --cron:'00 23 * * *'
+          -cron:'00 23 * * *'
           
